@@ -1,58 +1,126 @@
-# Yir Yoront 文化守护者
+# Yir Yoront Guardian
 
-这是一个基于HTML5的教育性游戏，展现了澳大利亚原住民 Yir Yoront 部落在现代化进程中面临的文化冲突。玩家将扮演部落的守护者，通过游戏体验传统与现代的平衡。
+An HTML5 educational game that symbolizes the cultural conflict faced by the Australian Aboriginal Yir Yoront tribe during modernization. Players take on the role of a tribal guardian, experiencing the balance between tradition and modernity.
 
-## 游戏背景 🌍
+🎮 [Play the Game](https://bravohenry.github.io/YirYorontGuardian/)
 
-Yir Yoront 部落面临着现代化带来的文化冲击。石斧作为传统文化的象征，不仅是一件工具，更是维系社会关系的纽带。而钢斧的引入，虽然提高了效率，却动摇了传统的文化根基。
+![Game Screenshot](Asset/game-bg.png)
+*Traditional village background representing the Yir Yoront tribe's original lifestyle*
 
-## 游戏玩法 🎮
+## Game Background 🌍
 
-- 使用方向键控制角色左右移动
-- 接住从天而降的不同物品：
-  - 石斧 (传统): +10分，增加文化平衡
-  - 钢斧 (现代): +5分，减少文化平衡
-  - 图腾碎片: 恢复文化平衡
-  - 传教士物品: 暂时增加钢斧出现频率
+The Yir Yoront tribe faces the impact of modernization. The stone axe, as a symbol of traditional culture, is not just a tool but a bond that maintains social relationships. The introduction of steel axes, while improving efficiency, has shaken the foundation of traditional culture.
 
-## 游戏特色 ✨
+## Game Items and Their Symbolism 🎯
 
-- 富有教育意义的游戏主题
-- 简单但有深度的游戏机制
-- 动态难度调整
-- 随机事件系统
-- 文化平衡机制
+![Stone Axe](Asset/traditional.png) **Traditional Stone Axe**
+- Score: +10 points
+- Cultural Impact: Increases balance
+- Symbolism: Represents traditional craftsmanship and social bonds
 
-## 技术要求 💻
+![Steel Axe](Asset/modern.png) **Modern Steel Axe**
+- Score: +5 points
+- Cultural Impact: Decreases balance
+- Symbolism: Represents modernization and efficiency
 
-- 支持HTML5的现代浏览器
-- 建议分辨率：1024x768或更高
+![Totem](Asset/Totem.png) **Sacred Totem**
+- Cultural Impact: Restores balance
+- Symbolism: Connection to ancestral wisdom and cultural heritage
 
-## 开发技术 🛠
+![Bible](Asset/bible.png) **Religious Item**
+- Special Effect: Increases modern influence
+- Symbolism: External cultural and religious influences
+
+![Player](Asset/player.png) **Tribal Guardian**
+- Role: Player character
+- Symbolism: Bridge between tradition and modernity
+
+## Visual Progression 🎨
+
+![Traditional Background](Asset/game-bg.png) → ![Modern Background](Asset/game-bg2.png)
+*As your score increases, the background gradually transitions from traditional to modern, symbolizing cultural change*
+
+## How to Play 🎮
+
+- Use arrow keys to move left and right
+- Catch falling items:
+  - Stone Axe (Traditional): +10 points, increases cultural balance
+  - Steel Axe (Modern): +5 points, decreases cultural balance
+  - Totem Fragment: Restores cultural balance
+  - Religious Item: Temporarily increases steel axe drop rate
+
+## Game Features ✨
+
+- Educational game theme
+- Simple yet deep gameplay mechanics
+- Dynamic difficulty adjustment
+- Random events system
+- Cultural balance mechanism
+- Progressive modernization visual effects
+- Pixel art style with retro aesthetics
+
+## Technical Requirements 💻
+
+- Modern browser with HTML5 support
+- Recommended resolution: 1024x768 or higher
+
+## Development Stack 🛠
 
 - HTML5 Canvas
 - JavaScript
 - CSS3
+- Press Start 2P Font
 
-## 如何运行 🚀
+## How to Run Locally 🚀
 
-1. 克隆仓库到本地
-2. 使用现代浏览器打开 `index.html`
-3. 开始游戏！
+1. Clone the repository
+```bash
+git clone https://github.com/bravohenry/YirYorontGuardian.git
+```
+2. Open `index.html` in a modern browser
+3. Start playing!
 
-## 教育目标 📚
+## Educational Goals 📚
 
-- 理解文化冲突的复杂性
-- 体验传统与现代的平衡
-- 认识文化保护的重要性
-- 培养多元文化的理解与尊重
+- Understanding the complexity of cultural conflicts
+- Experiencing the balance between tradition and modernity
+- Recognizing the importance of cultural preservation
+- Fostering understanding and respect for diverse cultures
 
-## 资源来源 📝
+## Game Assets 📝
 
-游戏中使用的图片资源均为原创设计，包括：
-- player.png - 玩家角色
-- traditional.png - 传统石斧
-- modern.png - 现代钢斧
-- totem.png - 图腾碎片
-- bible.png - 传教士物品
-- game-bg.png - 游戏背景 
+All game assets are original designs:
+- player.png - Tribal guardian character
+- traditional.png - Traditional stone axe
+- modern.png - Modern steel axe
+- totem.png - Totem fragment
+- bible.png - Religious item
+- game-bg.png - Traditional background
+- game-bg2.png - Modern background
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License 📄
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments 🙏
+
+- Inspired by the real historical events of the Yir Yoront tribe
+- Font: Press Start 2P by CodeMan38
+- Special thanks to all contributors and testers
+
+---
+
+### Project Information 📋
+
+**Designer:** Zihan Huang  
+**LinkedIn:** [@zihanhwang](https://www.linkedin.com/in/zihanhwang/)  
+**Institution:** Savannah College of Art and Design (SCAD)  
+**Course:** Innovation: Past, Present, and Future (DMGT-702)  
+**Term:** Winter 2025
+
+---
+Made with ❤️ for cultural preservation and education 
