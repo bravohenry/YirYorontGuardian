@@ -4,7 +4,8 @@ An HTML5 educational game that symbolizes the cultural conflict faced by the Aus
 
 🎮 [Play the Game](https://bravohenry.github.io/YirYorontGuardian/)
 
-![Game Screenshot](Asset/game-bg.png)
+<img src="Asset/game-bg.png" width="600" alt="Game Screenshot">
+
 *Traditional village background representing the Yir Yoront tribe's original lifestyle*
 
 ## Game Background 🌍
@@ -13,31 +14,36 @@ The Yir Yoront tribe faces the impact of modernization. The stone axe, as a symb
 
 ## Game Items and Their Symbolism 🎯
 
-![Stone Axe](Asset/traditional.png) **Traditional Stone Axe**
+<img src="Asset/traditional.png" width="40" alt="Stone Axe"> **Traditional Stone Axe**
 - Score: +10 points
 - Cultural Impact: Increases balance
 - Symbolism: Represents traditional craftsmanship and social bonds
 
-![Steel Axe](Asset/modern.png) **Modern Steel Axe**
+<img src="Asset/modern.png" width="40" alt="Steel Axe"> **Modern Steel Axe**
 - Score: +5 points
 - Cultural Impact: Decreases balance
 - Symbolism: Represents modernization and efficiency
 
-![Totem](Asset/Totem.png) **Sacred Totem**
+<img src="Asset/Totem.png" width="40" alt="Totem"> **Sacred Totem**
 - Cultural Impact: Restores balance
 - Symbolism: Connection to ancestral wisdom and cultural heritage
 
-![Bible](Asset/bible.png) **Religious Item**
+<img src="Asset/bible.png" width="40" alt="Bible"> **Religious Item**
 - Special Effect: Increases modern influence
 - Symbolism: External cultural and religious influences
 
-![Player](Asset/player.png) **Tribal Guardian**
+<img src="Asset/player.png" width="60" alt="Player"> **Tribal Guardian**
 - Role: Player character
 - Symbolism: Bridge between tradition and modernity
 
 ## Visual Progression 🎨
 
-![Traditional Background](Asset/game-bg.png) → ![Modern Background](Asset/game-bg2.png)
+<div style="display: flex; align-items: center; gap: 10px;">
+    <img src="Asset/game-bg.png" width="300" alt="Traditional Background">
+    ➡️
+    <img src="Asset/game-bg2.png" width="300" alt="Modern Background">
+</div>
+
 *As your score increases, the background gradually transitions from traditional to modern, symbolizing cultural change*
 
 ## How to Play 🎮
